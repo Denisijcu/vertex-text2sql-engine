@@ -197,3 +197,12 @@
 - **Proyecto cerrado:** modelo publicado, video subido y libro listo para KDP.
 
 ---
+
+## 2026-10-23 — Libro publicado en Kindle
+
+- **Kindle en venta:** *Vertex-Core SQL*, https://www.amazon.com/dp/B0HP3R3RWX (precio de lista 12,99 USD).
+- **Tapa blanda:** queda como borrador en KDP, porque se alcanzó el límite semanal de títulos nuevos por formato. Se publica cuando el límite se reinicie, a partir del sábado 24 a las 8 pm (Miami).
+- **Enlace al libro añadido** en el README del repo. Para la ficha de Hugging Face y la descripción del video de YouTube se preparó el texto; los pega Denis.
+- **Portafolio:** el modelo aparece en vertex-services.org/#trabajo, con enlace a Hugging Face.
+
+---
