@@ -1,0 +1,38 @@
+# Entornos
+venv/
+.venv/
+.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Cachés de Hugging Face / torch / triton / unsloth (varios GB)
+.cache/
+unsloth_compiled_cache/
+
+# Pesos y artefactos de entrenamiento (se publican en Hugging Face, no en git)
+*.safetensors
+*.gguf
+*.bin
+*.pt
+*.pth
+outputs_v3/
+models/gguf_v3/
+models/gguf_v3_gguf/
+vertex_core_sql_4b_v3_adapter/*.safetensors
+
+# Datos (se regeneran con scripts/03_build_hybrid_dataset_v3.py)
+dataset/raw/
+dataset/processed/*.jsonl
+
+# Resultados de evaluación detallados (el resumen sí se puede versionar)
+logs/eval_*.json
+!logs/eval_resumen_*.json
+
+# Libro: artefactos de compilación
+libro/build/
+libro/build_epub/
+libro/kdp-ficha.md

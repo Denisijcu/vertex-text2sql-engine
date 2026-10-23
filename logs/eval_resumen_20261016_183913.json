@@ -1,0 +1,14 @@
+[
+  {
+    "model": "vertex-core-v3",
+    "n": 95,
+    "skipped": 5,
+    "offset": 10000,
+    "valid_pct": 100.0,
+    "executes_pct": 97.9,
+    "exact_pct": 47.4,
+    "exec_match_pct": 78.9,
+    "exec_match_cs_pct": 65.3,
+    "latency_avg_s": 3.0
+  }
+]

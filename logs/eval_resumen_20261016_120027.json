@@ -1,0 +1,26 @@
+[
+  {
+    "model": "vertex-core-v2",
+    "n": 95,
+    "skipped": 5,
+    "offset": 10000,
+    "valid_pct": 100.0,
+    "executes_pct": 90.5,
+    "exact_pct": 53.7,
+    "exec_match_pct": 80.0,
+    "exec_match_cs_pct": 67.4,
+    "latency_avg_s": 2.74
+  },
+  {
+    "model": "qwen2.5-coder-7b-instruct",
+    "n": 95,
+    "skipped": 5,
+    "offset": 10000,
+    "valid_pct": 97.9,
+    "executes_pct": 92.6,
+    "exact_pct": 48.4,
+    "exec_match_pct": 76.8,
+    "exec_match_cs_pct": 63.2,
+    "latency_avg_s": 13.09
+  }
+]

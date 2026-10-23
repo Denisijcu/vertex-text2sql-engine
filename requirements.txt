@@ -1,0 +1,29 @@
+# ---------------------------------------------------------------------------
+# Vertex Text-to-SQL Engine — dependencias (versiones reales del venv, 2026-10-16)
+# Python 3.14.3 · Windows 11 · CUDA 12.6
+# Lock completo:  pip freeze | Out-File -Encoding utf8 requirements.lock.txt
+# ---------------------------------------------------------------------------
+
+# torch con CUDA se instala aparte, ANTES que lo demás:
+#   pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cu126
+
+# --- Pipeline de datos y validación (scripts 01–03, 06, 08) ---
+pandas==3.0.6
+pydantic==2.14.1
+pydantic-settings==2.16.0
+sqlglot==30.23.0
+requests==2.34.2
+datasets==4.8.5
+pytest==9.1.1
+
+# --- Entrenamiento / inferencia / export (scripts 04, 05, 07) ---
+unsloth==2026.10.6
+unsloth_zoo==2026.10.6
+trl==1.15.0
+transformers==5.17.0
+peft==0.21.2
+accelerate==1.15.0
+bitsandbytes==0.50.2
+triton-windows==3.8.0.post29
+xformers==0.0.35
+gguf==0.19.0
